@@ -41,7 +41,7 @@ public class Group {
 
 
     public void showInfo() {
-        System.out.println("Name: " + this.name + "\n" +
+        System.out.println("Group name: " + this.name + "\n" +
                 "Trainer name: " + trainer.getFirstName() + " " + trainer.getLastName() + "\n" +
                 "Numbers of students: " + students.length + "\n");
         for (int i = 0; i < students.length; i++) {
