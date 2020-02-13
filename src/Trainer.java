@@ -6,7 +6,6 @@ public class Trainer extends Person {
         super(firstName, lastName);
     }
 
-
     public static Trainer trainerBuilder() {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,6 +17,4 @@ public class Trainer extends Person {
 
         return trainer;
     }
-
-
 }

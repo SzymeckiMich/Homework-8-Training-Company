@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Student extends Person {
 
     public Student(String firstName, String lastName) {
