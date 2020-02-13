@@ -4,11 +4,6 @@ public class Group {
     private String name;
     private Trainer trainer;
     private Student[] students;
-    private static int groups =0;
-
-
-    public Group() {
-    }
 
     public Group(String name, Trainer trainer, Student[] students) {
         this.name = name;

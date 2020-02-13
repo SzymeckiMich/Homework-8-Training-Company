@@ -6,7 +6,7 @@ public class Trainer extends Person {
         super(firstName, lastName);
     }
 
-    public static Trainer trainerBuilder() {
+    public static Trainer buildTrainer() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter trainer's first name");

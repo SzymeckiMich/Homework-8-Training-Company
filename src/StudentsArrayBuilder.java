@@ -7,12 +7,12 @@ public class StudentsArrayBuilder {
         int howMuch = scanner.nextInt();
         Student[] students = new Student[howMuch];
         for (int i = 0; i < howMuch; i++) {
-            students[i] = studentBuilder(i);
+            students[i] = buildStudent(i);
         }
         return students;
     }
 
-    public static Student studentBuilder(int which) {
+    public static Student buildStudent(int which) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter first name of " + (which + 1) + " student");
         String firstName = scanner.nextLine();

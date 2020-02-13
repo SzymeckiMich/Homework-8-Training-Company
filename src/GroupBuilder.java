@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class GroupBuilder {
-    public Group groupBuilder() {
+    public Group buildGroup() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter group name");
         String nameOfGroup = scanner.nextLine();
-        Trainer trainer = Trainer.trainerBuilder();
+        Trainer trainer = Trainer.buildTrainer();
 
         Student[] studentsArray = StudentsArrayBuilder.studentsArray();
 
